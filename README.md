@@ -619,7 +619,7 @@ You can attach an example image and work with it directly in Copilot Chat.
 
 ### Prerequisites
 - GitHub PAT (Personal Access Token)
-- Azure DevOps PAT (Personal Access Token) (optional)
+- Docker installed for MCP server tasks or caonfigure by using mcp.json file (example in repo)
 
 1. **Switch to Agent Mode**:
    - Open GitHub Copilot Chat and select Agent mode
@@ -628,12 +628,10 @@ You can attach an example image and work with it directly in Copilot Chat.
    - Click the tools icon in the agent mode interface
    - Click "Add MCP server... icon"
    - Select "Browse MCP Servers..."
-   - Add MCP servers: GitHub, Playwright, Azure DevOps & Atlassian
+   - Add MCP servers: GitHub, Playwright
 
 3. **Use MCP Tools in Agent Mode**:
    - Now you can use the added MCP server tools in your agent mode sessions
-   - Use your Azure DevOps MCP to see what you are working on this sprint
-   - Use Atlassian MCP to see your Confluence pages
    - Use GitHub MCP to interact with your GitHub repositories
 
 > Note: Review all GitHub MCP Server available tools at: https://github.com/github/github-mcp-server
@@ -767,24 +765,13 @@ Example:
 3. **PR should be created automatically by Copilot**
    - You will be called to review once the PR is complete.
 
-## Task 6 -Use Extensions for managing Instructions, Prompts and Chat Modes
-
-1. Open the extensions marketplace in your IDE
-2. Search for "Effective AI Kit" and install it
-3. in your chat window, type '/' to see the available prompts, for example:
-   - "/create-readme"
-   - "/dotnet-design-pattern-review "
-4. Write a message to Copilot chat - you should see instruction files being referenced.
-   - "performance-optimization.instructions.md"
-   - "memory-bank.instructions.md"
-
 ---
 
-## Task 7 - GitHub Copilot CLI
+## Task 6 - GitHub Copilot CLI
 
 GitHub Copilot CLI is a powerful terminal-based AI assistant that brings the full capabilities of GitHub Copilot directly to your command line. Unlike traditional CLI tools, Copilot CLI works as an interactive agent that can understand your codebase, make changes, and help you build features through natural language conversations.
 
-### 7.1 Installation and Setup
+### 6.1 Installation and Setup
 
 **Step 1: Install Copilot CLI**
 
@@ -815,7 +802,7 @@ copilot
 
 The first time you run it, you'll be prompted to authenticate with GitHub. Follow the authentication flow in your browser.
 
-### 7.2 Using GitHub Copilot CLI
+### 6.2 Using GitHub Copilot CLI
 
 Once authenticated, Copilot CLI runs as an interactive agent in your terminal.
 
@@ -850,7 +837,7 @@ After launching Copilot CLI, simply describe what you want to accomplish in natu
 - Execute commands when appropriate
 - Explain its reasoning and approach
 
-### 7.3 Hands-On Exercise: Enhance the NBA Workshop App
+### 6.3 Hands-On Exercise: Enhance the NBA Workshop App
 
 #### **Exercise 1: Add a Teams Feature**
 
@@ -894,14 +881,14 @@ Display the data in a sortable table.
 Add this page to the navigation menu.
 ```
 
-## Task 8 - Build Your Own MCP Server (Bonus) - New Project
+## Task 7 - Build Your Own MCP Server (Bonus) - New Project
 
 Create a new project to build your own MCP server.
 
-### 8.1 System Requirements
+### 7.1 System Requirements
 - Latest version of Node.js installed
 
-### 8.2 Set Up Environment
+### 7.2 Set Up Environment
 
 **macOS/Linux:**
 ```bash
@@ -925,7 +912,7 @@ md src
 new-item src\index.ts
 ```
 
-### 8.3 Build Your Weather Server
+### 7.3 Build Your Weather Server
 
 Create a weather MCP server that provides weather alerts and forecasts using the National Weather Service API.
 
