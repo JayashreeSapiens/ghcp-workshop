@@ -308,12 +308,7 @@ Use GitHub Copilot's web search capabilities to learn about the technologies use
    - `@github How do I configure CORS in Flask for a Next.js frontend?`
    - `@github What is the difference between server and client components in Next.js 14?`
 
-By using @github you are: Getting answers grounded in web search, code search, and your enterprise's knowledge bases.
-You can tell that Copilot chat used bing search if you see bing as search resource:
-
-![Bing Search](image/copilot-bing-search.png)
-
-> Troubleshoot: If you don't see Bing in references, try prompting with "@github search the web, how do I..."
+By using @github you are: Getting answers grounded in code search, and your enterprise's knowledge bases.
 
 ### 1.3 Role Prompting and Custom Instructions
 
@@ -518,6 +513,7 @@ Prompt files allow you to create reusable, shareable prompts for consistent deve
 1. **Explore existing prompt files**:
    - Navigate to `.github/prompts/` directory
    - Open Copilot Chat and add `testing-strategy.prompt.md` as context to help create comprehensive test suites
+   - Type in Chat window /testing-strategy and it will use the prompt for your prompt.
 
 2. **Create a Custom Prompt File**:
    - Create a new prompt file: `.github/prompts/api-security.prompt.md`
@@ -529,7 +525,8 @@ Prompt files allow you to create reusable, shareable prompts for consistent deve
    - Implement rate limiting and throttling
    - Implement logging and monitoring for security events
    ```
-   - Test the prompt by adding it as context in Copilot Chat
+   - Test the prompt by adding it as context in Copilot Chat or type in Chat window /api-security and it  will use the prompt for your prompt.
+
 3. **Add additional existing chat modes and prompt files**:
    - Explore and utilize other prompt files in the `.github/` directory to enhance your strategies and API security reviews, by following this link: https://github.com/github/awesome-copilot 
 
@@ -618,8 +615,10 @@ You can attach an example image and work with it directly in Copilot Chat.
 ## Task 4 - MCP Servers
 
 ### Prerequisites
-- GitHub PAT (Personal Access Token)
-- Docker installed for MCP server tasks or caonfigure by using mcp.json file (example in repo)
+- 1. GitHub PAT (Personal Access Token)
+- 2. Docker installed for MCP server tasks (sometimes required for tasks)
+     Or you can use pre-configured MCP servers by using mcp.json file (inside .vscode/mcp.json folder)
+     Try to start each MCP server and see added tools
 
 1. **Switch to Agent Mode**:
    - Open GitHub Copilot Chat and select Agent mode
@@ -629,6 +628,9 @@ You can attach an example image and work with it directly in Copilot Chat.
    - Click "Add MCP server... icon"
    - Select "Browse MCP Servers..."
    - Add MCP servers: GitHub, Playwright
+   - You can verify configuration of MCP server:
+     Go to Extensions->@mcp or "MCP Servers-Installed"->Chose the Server and press on Gear button and chose "Show Configuration (JSON) - check settings and you can also start the server from here and see added tools
+
 
 3. **Use MCP Tools in Agent Mode**:
    - Now you can use the added MCP server tools in your agent mode sessions
@@ -756,6 +758,11 @@ Want to create a custom skill for your team? Follow these steps:
 
 ## Task 5 - Github Copilot Coding Agent
 1. **Create a new issue in this GitHub repository**:
+
+Note: you can open Issue from VS Code (or you can use Github Portal) by folllowing steps:
+   - Open the Command Palette (Ctrl+Shift+P or Cmd+Shift+P).
+   - Type GitHub Issues: Create Issue.
+
 Example:   
    - Title: `Create dark mode toggle for this web app`
    - Description: `Create a dark mode ability for this web app, it should be a toggle on the top right corner of the page`
@@ -764,7 +771,6 @@ Example:
    - Select "Copilot"
 3. **PR should be created automatically by Copilot**
    - You will be called to review once the PR is complete.
-
 ---
 
 ## Task 6 - GitHub Copilot CLI
