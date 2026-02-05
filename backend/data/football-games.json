@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "event_away_team": "Manchester United",
+    "event_home_team": "Liverpool",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Manchester-United-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Liverpool-Logo.png",
+    "event_final_result": "2 - 1",
+    "event_date": "2024-02-04T15:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "2",
+    "event_away_team": "Chelsea",
+    "event_home_team": "Arsenal",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Chelsea-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Arsenal-Logo.png",
+    "event_final_result": "0 - 3",
+    "event_date": "2024-02-04T17:30:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "3",
+    "event_away_team": "Manchester City",
+    "event_home_team": "Tottenham Hotspur",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Manchester-City-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Tottenham-Logo.png",
+    "event_final_result": "4 - 1",
+    "event_date": "2024-02-03T20:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "4",
+    "event_away_team": "Newcastle United",
+    "event_home_team": "Brighton",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Newcastle-United-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Brighton-Logo.png",
+    "event_final_result": "1 - 2",
+    "event_date": "2024-02-03T15:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "5",
+    "event_away_team": "West Ham United",
+    "event_home_team": "Aston Villa",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/West-Ham-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Aston-Villa-Logo.png",
+    "event_final_result": "2 - 2",
+    "event_date": "2024-02-03T17:30:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "6",
+    "event_away_team": "Leicester City",
+    "event_home_team": "Everton",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Leicester-City-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Everton-Logo.png",
+    "event_final_result": "3 - 0",
+    "event_date": "2024-02-02T20:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "7",
+    "event_away_team": "Crystal Palace",
+    "event_home_team": "Wolverhampton",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Crystal-Palace-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Wolverhampton-Logo.png",
+    "event_final_result": "1 - 1",
+    "event_date": "2024-02-02T15:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "8",
+    "event_away_team": "Fulham",
+    "event_home_team": "Burnley",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Fulham-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Burnley-Logo.png",
+    "event_final_result": "2 - 0",
+    "event_date": "2024-02-01T20:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "9",
+    "event_away_team": "Sheffield United",
+    "event_home_team": "Brentford",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Sheffield-United-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Brentford-Logo.png",
+    "event_final_result": "0 - 1",
+    "event_date": "2024-02-01T17:30:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "10",
+    "event_away_team": "Nottingham Forest",
+    "event_home_team": "Luton Town",
+    "event_away_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Nottingham-Forest-Logo.png",
+    "event_home_team_logo": "https://logos-world.net/wp-content/uploads/2020/06/Luton-Town-Logo.png",
+    "event_final_result": "3 - 2",
+    "event_date": "2024-01-31T20:00:00Z",
+    "event_status": "Finished"
+  }
+]

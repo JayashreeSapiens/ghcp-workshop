@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1",
+    "event_away_team": "India",
+    "event_home_team": "Australia",
+    "event_away_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316654.png",
+    "event_home_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316637.png",
+    "event_final_result": "278/8 - 245/10",
+    "event_date": "2024-02-04T09:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "2",
+    "event_away_team": "England",
+    "event_home_team": "Pakistan",
+    "event_away_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316643.png",
+    "event_home_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316652.png",
+    "event_final_result": "185/9 - 186/4",
+    "event_date": "2024-02-03T14:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "3",
+    "event_away_team": "South Africa",
+    "event_home_team": "New Zealand",
+    "event_away_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316655.png",
+    "event_home_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316651.png",
+    "event_final_result": "312/7 - 298/8",
+    "event_date": "2024-02-02T08:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "4",
+    "event_away_team": "West Indies",
+    "event_home_team": "Sri Lanka",
+    "event_away_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316659.png",
+    "event_home_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316656.png",
+    "event_final_result": "240/10 - 241/3",
+    "event_date": "2024-02-01T13:30:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "5",
+    "event_away_team": "Bangladesh",
+    "event_home_team": "Afghanistan",
+    "event_away_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316640.png",
+    "event_home_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316636.png",
+    "event_final_result": "195/8 - 192/9",
+    "event_date": "2024-01-31T10:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "6",
+    "event_away_team": "Zimbabwe",
+    "event_home_team": "Ireland",
+    "event_away_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316660.png",
+    "event_home_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316647.png",
+    "event_final_result": "165/10 - 168/6",
+    "event_date": "2024-01-30T15:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "7",
+    "event_away_team": "Scotland",
+    "event_home_team": "Netherlands",
+    "event_away_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316653.png",
+    "event_home_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316650.png",
+    "event_final_result": "210/7 - 211/5",
+    "event_date": "2024-01-29T12:00:00Z",
+    "event_status": "Finished"
+  },
+  {
+    "id": "8",
+    "event_away_team": "Canada",
+    "event_home_team": "USA",
+    "event_away_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316641.png",
+    "event_home_team_logo": "https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316658.png",
+    "event_final_result": "155/9 - 158/4",
+    "event_date": "2024-01-28T16:30:00Z",
+    "event_status": "Finished"
+  }
+]

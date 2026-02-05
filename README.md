@@ -409,10 +409,10 @@ One of the common frustrations for developers is documenting their code properly
 GitHub Copilot assists in fixing code errors by analyzing context to suggest corrections.
 
 **Instructions:**
-1. Navigate to the errors page at http://localhost:3000/errors (this is an 'Add NBA player' page)
+1. Navigate to the player registration page at http://localhost:3000/add-player-info (this is an 'Add NBA player' page)
 2. Fill in the form and click 'Create player' button
 3. You should see a 404 error - the API endpoint was not found!
-4. Ask Copilot to `/explain` the error with context of `frontend/src/app/(dashboard)/errors/page.tsx`
+4. Ask Copilot to `/explain` the error with context of `frontend/src/app/(dashboard)/add-player-info/page.tsx`
 5. The frontend sends a POST request to `/api/players` - but does this route exist in the backend?
 6. Open `backend/app.py` and search for the player creation endpoint
 7. **Find the bug**: Compare the route name in the backend with what the frontend is calling. There's a mismatch!
